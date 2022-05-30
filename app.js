@@ -33,12 +33,8 @@ const multiThree = (input) => {
 console.log(multiThree(arrNum)); // 6, 15, 30, 60, 1200
 
 // Activity 3…
-// Test this function to ensure it works by
-// passing a number to the doMaths
-// function.
-// Then passing a number and one of the
-// four maths functions to the returned
-// function.
+// Test this function to ensure it works by passing a number to the doMaths function.
+// Then passing a number and one of the four maths functions to the returned function.
 const add = (a, b) => {
     return a + b;
 };
@@ -58,6 +54,7 @@ const doMaths = (num1) => {
     }
 };
 
+// Solution:
 console.log(doMaths(12)); // (num2, fn) => {return fn(num1, num2)};
 console.log(doMaths(12)(10, add)) // 22
 console.log(doMaths(12)(10, divide)) // 1.2
